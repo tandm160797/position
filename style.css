@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 700px;
+  height: 500px;
+  background-color: blue;
+  border: 2px solid black;
+  position: relative;
+  margin: auto;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+}
+
+.yellow {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: yellow;
+}
+
+.red {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  background-color: red;
+}
+
+.green {
+  position: absolute;
+  top: 206px;
+  left: 28px;
+  background-color: green;
+}
